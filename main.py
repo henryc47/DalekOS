@@ -126,7 +126,7 @@ class UserCommsManager():
         while True:
             self.output_comms.message_user("I AM DALEK, WHAT IS YOUR COMMAND")
             user_message = self.input_comms.get_user_input("PLEASE STATE COMMAND : ")
-            self.output_comms.message_user("RECIEVED COMMAND " + user_message + " I OBEY")
+            self.output_comms.message_user("RECEIVED COMMAND " + user_message + " I OBEY")
 
 
 #the highest level class, responsible for overall control of the DALEK
